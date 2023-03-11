@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/diamond_hotel/static/css/main.6bc7c103.css",
-    "main.js": "/diamond_hotel/static/js/main.b85c8b96.js",
-    "static/media/video_intro.mp4": "/diamond_hotel/static/media/video_intro.829401b02fb8f50e89b2.mp4",
-    "index.html": "/diamond_hotel/index.html",
-    "main.6bc7c103.css.map": "/diamond_hotel/static/css/main.6bc7c103.css.map",
-    "main.b85c8b96.js.map": "/diamond_hotel/static/js/main.b85c8b96.js.map"
+    "main.css": "./static/css/main.6bc7c103.css",
+    "main.js": "./static/js/main.e7c99ff9.js",
+    "static/media/video_intro.mp4": "./static/media/video_intro.829401b02fb8f50e89b2.mp4",
+    "index.html": "./index.html",
+    "main.6bc7c103.css.map": "./static/css/main.6bc7c103.css.map",
+    "main.e7c99ff9.js.map": "./static/js/main.e7c99ff9.js.map"
   },
   "entrypoints": [
     "static/css/main.6bc7c103.css",
-    "static/js/main.b85c8b96.js"
+    "static/js/main.e7c99ff9.js"
   ]
 }
