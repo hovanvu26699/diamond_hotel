@@ -1,0 +1,14 @@
+ @import "./styles/common";
+ @import "./styles/reset.scss";
+
+ @import "../src/components/header/header";
+ @import "../src/components/footer/footer";
+
+ @import "../src/views/homePage/homepage.scss";
+ @import "../src/views/intro/intro.scss";
+ @import "../src/views/room/room.scss";
+ @import "../src/views/restaurant/restaurant.scss";
+ @import "../src//views//conference/conference.scss";
+ @import "../src/views/services/services.scss";
+ @import "../src//views//voucher/vouchers.scss";
+ @import "../src/views/contract/contract.scss";

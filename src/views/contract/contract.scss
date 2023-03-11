@@ -1,0 +1,121 @@
+@import "../../components/input/input";
+
+.contract__container {
+    margin-top: 110px;
+    font-family: $font-fam;
+
+    .contract__content {
+        padding: 60px 0;
+
+        .wrapper {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .contract__img {
+                max-width: 340px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .contract__info {
+                margin: 30px 0;
+                font-size: 18px;
+                text-align: center;
+
+                p {
+                    font-weight: 300;
+                    line-height: 25px;
+                    margin: 5px 0;
+
+                    &:first-child {
+                        font-size: 19px;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .contract__btn {
+                .btn {
+                    width: 170px;
+
+                    i {
+                        margin-right: 10px;
+
+                    }
+                }
+            }
+
+            .contract__qcode {
+                margin: 30px 10px;
+            }
+        }
+    }
+
+    .contract__form {
+        padding: 60px 0;
+        background-image: url("http://diamondstarbentre.com/modules/contact/images/bg.jpg");
+
+        .wrapper {
+            width: 80%;
+            padding: 60px 0;
+            margin: 0 auto;
+            background: #F7F7F7;
+
+            form {
+                width: 70%;
+                margin: 0 auto;
+
+                .form__text {
+                    width: 90%;
+                    margin: 0 auto;
+                    text-align: center;
+
+                    p {
+                        margin-bottom: 30px;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .form__input {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 30px;
+
+                    .input__container:last-child {
+                        textarea {
+                            height: 80px;
+                            width: calc(200% + 30px);
+                            font-size: 16px;
+                            line-height: 24px;
+                            padding: 7px 0;
+                            resize: none;
+                            border: none;
+                            border-bottom: 1px solid #333333;
+                        }
+
+                        span {
+                            right: calc(-100% - 15px);
+                        }
+                    }
+                }
+
+                .form__btn {
+                    margin-top: 50px;
+                    text-align: center;
+
+                    .btn {
+                        width: 150px;
+                    }
+                }
+            }
+        }
+
+    }
+}

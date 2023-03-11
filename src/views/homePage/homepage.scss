@@ -1,0 +1,21 @@
+@import "../../components/videoIntro/videoIntro";
+// introduce
+@import "../../components/welcome/welcome";
+// slide room
+@import "../../components/titleHome/titleHome";
+@import "../../components/cardRoom/cardRoom";
+@import "../../components/roomSlide/roomSlide";
+// slide service
+@import "../../components/cardService/cardService";
+@import "../../components/service/service";
+// voucher
+@import "../../components/cardVoucher/cardVoucher";
+@import "../../components/voucher/voucher";
+// map
+@import "../../components/map/map";
+// footer
+@import "../../components/footer/footer";
+
+.home__container {
+    padding-top: 110px;
+}

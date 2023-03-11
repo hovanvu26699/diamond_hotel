@@ -1,0 +1,82 @@
+@import "../../components/bigSlide/bigSlide";
+@import "../../components/cardItro/cardItro";
+@import "../../components/contract/contract";
+@import "../../components/menuFlow/menuFlow";
+
+.restaurant {
+    margin-top: 110px;
+    font-family: $font-fam;
+
+    &__introduce {
+        margin-top: 10px;
+        padding: 60px 0;
+        background: $bg-pink ;
+
+
+
+        .wrapper {
+            padding-left: 300px;
+            width: 80%;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 30px;
+                line-height: 45px;
+                margin-bottom: 15px;
+                font-weight: 500;
+            }
+
+            .introduce__content {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                line-height: 23px;
+                margin-bottom: 40px;
+                color: $text-dark;
+
+                p {
+                    padding: 5px 0;
+                }
+            }
+
+            .introduce__album {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+        }
+    }
+
+    &__menu {
+        .menu__wrapper {
+            width: 80%;
+            padding: 60px 0 60px 300px;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 30px;
+                line-height: 45px;
+                margin-bottom: 15px;
+                font-weight: 500;
+            }
+
+            .menu__content {
+                display: grid;
+                gap: 30px;
+                grid-template-columns: repeat(2, 1fr);
+
+                .cardIntro {
+                    &__content {
+                        text-align: center;
+
+                        h4 {
+                            font-size: 18px;
+                            line-height: 26px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

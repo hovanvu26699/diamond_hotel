@@ -1,0 +1,69 @@
+.cardSer__container {
+    position: relative;
+    overflow: hidden;
+    max-width: 700px;
+    height: 400px;
+
+    &:hover {
+        cursor: pointer;
+
+        .service__img {
+            a {
+                img {
+                    transform: scale(1.07);
+
+                }
+            }
+        }
+
+        .service__title {
+            background-color: $text-title;
+        }
+    }
+
+    .service__img {
+        width: 100%;
+        height: 100%;
+
+        a {
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+                overflow: hidden;
+                transition: all 0.5s ease;
+                transform: scale(1);
+            }
+
+        }
+
+
+
+    }
+
+    .service__title {
+        text-align: center;
+        position: absolute;
+        background-color: #bc822fbd;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.5s ease;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $text-title;
+        }
+
+        h2 {
+            font-size: 22px;
+            line-height: 34px;
+            font-weight: 500;
+            padding: 15px 20px;
+            color: $text-light;
+            text-transform: uppercase;
+        }
+    }
+
+}

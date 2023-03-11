@@ -1,0 +1,17 @@
+.title__container {
+    font-family: $font-fam;
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+        line-height: 55px;
+        font-weight: 500;
+        color: $text-title;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+    }
+
+    span {
+        font-size: 18px;
+    }
+}

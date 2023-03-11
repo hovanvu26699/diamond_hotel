@@ -1,0 +1,66 @@
+.service__container {
+    padding: 65px 0 70px 0;
+    background-color: #F0E8DD;
+
+    .mySwiper {
+        margin-top: 50px;
+        width: 100%;
+
+        .swiper-button-prev {
+            left: 333px;
+
+            &::after {
+                color: $text-title;
+                font-size: 25px;
+                padding: 8px 14px;
+                border-radius: 50%;
+                border: 2px solid $text-title;
+
+                &:hover {
+                    cursor: pointer;
+
+                }
+            }
+        }
+
+        .swiper-button-next {
+            right: 361px;
+
+            &::after {
+                color: $text-title;
+                font-size: 25px;
+                padding: 8px 14px;
+                border-radius: 50%;
+                border: 2px solid $text-title;
+
+                &:hover {
+                    cursor: pointer;
+
+                }
+            }
+        }
+
+        .swiper-pagination-horizontal .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            margin: 0 10px;
+            background-color: $text-title;
+        }
+    }
+
+    .slide__btn {
+        margin-top: 50px;
+        text-align: center;
+
+        .btn-no-bg {
+            width: 150px;
+            color: $text-title;
+            border-color: $text-title;
+
+            &:hover {
+                border: 2px solid $text-title;
+            }
+        }
+    }
+
+}

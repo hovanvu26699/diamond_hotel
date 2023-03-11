@@ -1,0 +1,12 @@
+.serv__container {
+    margin-top: 110px;
+
+    .serv__list {
+        margin: 0 auto;
+        width: 78%;
+        padding: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
