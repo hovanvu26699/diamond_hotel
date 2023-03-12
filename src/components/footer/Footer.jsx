@@ -1,5 +1,12 @@
 import React from "react";
 
+import logoTrip from "../../assets/image/social-trip.png";
+import logoDot from "../../assets/image/social-dot.png";
+import logoAgoda from "../../assets/image/social-agoda.png";
+import logoBook from "../../assets/image/social-book.png";
+import logoTravel from "../../assets/image/social-travel.png";
+import logoExp from "../../assets/image/social-exp.png";
+
 const Footer = () => {
   return (
     <div className="footer__container">
@@ -52,51 +59,33 @@ const Footer = () => {
             <ul className="follow__app">
               <li>
                 <a href="">
-                  <img
-                    src="http://diamondstarbentre.com/vnt_upload/weblink/imgFt.png"
-                    alt="social"
-                  ></img>
+                  <img src={logoTrip} alt="social"></img>
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img
-                    src="http://diamondstarbentre.com/vnt_upload/weblink/imgFt1.png"
-                    alt="social"
-                  ></img>
+                  <img src={logoDot} alt="social"></img>
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img
-                    src="http://diamondstarbentre.com/vnt_upload/weblink/logo_agoda_6.png"
-                    alt="social"
-                  ></img>
+                  <img src={logoAgoda} alt="social"></img>
                 </a>
               </li>
 
               <li>
                 <a href="">
-                  <img
-                    src="http://diamondstarbentre.com/vnt_upload/weblink/traveloka_logo.png"
-                    alt="social"
-                  ></img>
+                  <img src={logoBook} alt="social"></img>
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img
-                    src="http://diamondstarbentre.com/vnt_upload/weblink/logo_expedia_1.png"
-                    alt="social"
-                  ></img>
+                  <img src={logoTravel} alt="social"></img>
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img
-                    src="http://diamondstarbentre.com/vnt_upload/weblink/logo_booking_6.png"
-                    alt="social"
-                  ></img>
+                  <img src={logoExp} alt="social"></img>
                 </a>
               </li>
             </ul>

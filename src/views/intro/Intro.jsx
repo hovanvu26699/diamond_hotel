@@ -3,16 +3,18 @@ import React from "react";
 import BigBanner from "../../components/bigBanner/BigBanner";
 import Welcome from "../../components/welcome/Welcome";
 import Map from "../../components/map/Map";
-import VideoIntro from "../../components/videoIntro/VideoIntro";
+
+import bannerIntro from "../../assets/image/baner-intro.jpg";
+import introImg from "../../assets/image/intro.jpg";
 
 const data_wel = {
-  img: "http://diamondstarbentre.com/vnt_upload/about/09_2020/viber_image_2020_09_24_09_23_07.jpg",
+  img: introImg,
   p1: "Tọa lạc tại đường Hùng Vương, thành phố Bến Tre, khách sạn Diamond Stars Bến Tre có kiến trúc hiện đại nằm đối diện với sông Bến Tre thanh bình và bên cạnh chợ Bến Tre dân dã hồn hậu.",
   p2: "Khách sạn là sự kết hợp hoàn hảo giữa không gian nghỉ dưỡng cao cấp, xen lẫn trong nét giản dị của xứ Dừa.",
   p3: "Diamond Stars Bến Tre luôn mong muốn rằng mỗi kỳ nghỉ của khách hàng sẽ luôn được trọn vẹn và đáng nhớ.",
 };
 const data_banner = {
-  img: "http://diamondstarbentre.com/vnt_upload/weblink/slide.jpg",
+  img: bannerIntro,
   title: "DIAMOND STARS BẾN TRE",
 };
 const Intro = () => {

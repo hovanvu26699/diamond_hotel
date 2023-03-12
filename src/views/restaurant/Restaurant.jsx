@@ -2,71 +2,79 @@ import React from "react";
 import BigSlide from "../../components/bigSlide/BigSlide";
 import CardItro from "../../components/cardItro/CardItro";
 import Contract from "../../components/contract/Contract";
-import MenuFlow from "../../components/menuFlow/MenuFlow";
+// image
+// slide
+import slide1 from "../../assets/image/res-slide-1.jpg";
+import slide2 from "../../assets/image/res-slide-2.jpg";
+import slide3 from "../../assets/image/res-slide-3.jpg";
+// intro section
+import imgIntro1 from "../../assets/image/res-intro-1.jpg";
+import imgIntro2 from "../../assets/image/res-intro-2.jpg";
+import imgIntro3 from "../../assets/image/res-intro-3.jpg";
+import imgIntro4 from "../../assets/image/res-intro-4.jpg";
+// menu section
+import imgMenu1 from "../../assets/image/menu-1.jpg";
+import imgMenu2 from "../../assets/image/menu-2.jpg";
+import imgMenu3 from "../../assets/image/menu-3.jpg";
+import imgMenu4 from "../../assets/image/menu-4.jpg";
 
 const data_slide = [
   {
     caption: "nhà hàng",
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/IMG_20201026_151437.jpg",
+    img: slide1,
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/IMG_9484.jpg",
+    img: slide2,
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/IMG_0380.jpg",
+    img: slide3,
   },
 ];
 const data_intro = [
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/thumbs/(1000x670)__IMG_20201026_151655_1.jpg",
+    img: imgIntro1,
     type: "Dining Room      Amber & Topaz",
     num: "Sức chứa: 14 Khách",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/thumbs/(1000x670)__IMG_0317.jpg",
+    img: imgIntro2,
     type: "Maquise Lounge - VIP Lounge",
     num: "Sức chứa: 72 khách",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/thumbs/(1000x670)__IMG_9500.jpg",
+    img: imgIntro3,
     type: "Nhà hàng ADAMAS",
     num: "Sức chứa: 138 khách",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/thumbs/(1000x670)__IMG_0418.jpg",
+    img: imgIntro4,
     type: "Nhà hàng EMERALD",
     num: "Sức chứa: 180 khách",
   },
 ];
 const data__menu = [
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/07_2020/menu5.jpg",
+    img: imgMenu1,
     type: "Bữa ăn sáng",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/09_2020/yzvgqruf3umal4wpnrce.jpg",
+    img: imgMenu2,
     type: "cafe",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/07_2020/menu7.jpg",
+    img: imgMenu3,
     type: "Bữa tối",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/07_2020/menu8.jpg",
+    img: imgMenu4,
     type: "Phòng tiệc: Tiệc cưới, tiệc sinh nhật...",
   },
-];
-const data_idFlow = [
-  { id: "#resIntro", title: "Giới thiệu" },
-  { id: "#resMenu", title: "Thực đơn" },
-  { id: "#contract", title: "Liên hệ" },
 ];
 
 const Restaurant = () => {
   return (
     <div className="restaurant">
       <BigSlide data={data_slide} />
-      <MenuFlow data={data_idFlow} />
       <div className="restaurant__introduce" id="resIntro">
         <div className="wrapper">
           <h2>Giới thiệu</h2>

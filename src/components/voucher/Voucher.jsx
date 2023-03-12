@@ -2,17 +2,22 @@ import React from "react";
 import TitleHome from "../titleHome/TitleHome";
 import CardVoucher from "../cardVoucher/CardVoucher";
 
+// image
+import offer1 from "../../assets/image/offer-1.jpg";
+import offer2 from "../../assets/image/offer-2.jpg";
+import offer3 from "../../assets/image/offer-3.jpg";
+
 const voucher = [
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/07_2020/uudai1.jpg",
+    img: offer1,
     title: "Ưu đãi đặc biệt 24 giờ",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/07_2020/uudai2.jpg",
+    img: offer2,
     title: "Ưu đãi mùa lễ hội",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/07_2020/uudai3.jpg",
+    img: offer3,
     title: "Ưu đãi cho đám cưới và sự kiện",
   },
 ];

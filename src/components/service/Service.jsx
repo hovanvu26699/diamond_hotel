@@ -2,30 +2,34 @@ import React from "react";
 
 import TitleHome from "../titleHome/TitleHome";
 import CardService from "../cardService/CardService";
-
+// swiper slide
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css";
+// image
+import servSpa from "../../assets/image/serv-4.jpg";
+import servPool from "../../assets/image/serv-1.jpg";
+import servGym from "../../assets/image/serv-3.jpg";
+import servTour from "../../assets/image/serv-2.jpg";
 
 const service = [
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/09_2020/Spa.jpg",
+    img: servSpa,
     title: "spa & massage",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/08_2020/ho_boi_vo_cuc.jpg",
+    img: servPool,
     title: "hồ bơi vô cực",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/09_2020/000.jpg",
+    img: servGym,
     title: "gym",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/05_2021/viber_image_2021_05_28_14_20_40.jpg",
+    img: servTour,
     title: "tour",
   },
 ];

@@ -2,39 +2,40 @@ import React from "react";
 import BigSlide from "../../components/bigSlide/BigSlide";
 import CardItro from "../../components/cardItro/CardItro";
 import Contract from "../../components/contract/Contract";
+// image
+import slide1 from "../../assets/image/confer-slide-1.jpg";
+import slide2 from "../../assets/image/confer-slide-2.jpg";
+import slide3 from "../../assets/image/confer-slide-3.jpg";
+import slide4 from "../../assets/image/confer-slide-4.jpg";
+// intro image
+import imgIntro1 from "../../assets/image/confer-intro-1.jpg";
+import imgIntro2 from "../../assets/image/confer-intro-2.jpg";
 
 const data_slide = [
   {
     caption: "hội nghị",
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/IMG_20201026_151437.jpg",
+    img: slide1,
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/IMG_9484.jpg",
+    img: slide2,
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/IMG_0380.jpg",
+    img: slide3,
+  },
+  {
+    img: slide4,
   },
 ];
 const data_intro = [
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/thumbs/(1000x670)__IMG_20201026_151655_1.jpg",
-    type: "Dining Room      Amber & Topaz",
-    num: "Sức chứa: 14 Khách",
+    img: imgIntro1,
+    type: "princess ballroom",
+    num: "Sức chứa: 600 Khách",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/thumbs/(1000x670)__IMG_0317.jpg",
-    type: "Maquise Lounge - VIP Lounge",
-    num: "Sức chứa: 72 khách",
-  },
-  {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/thumbs/(1000x670)__IMG_9500.jpg",
-    type: "Nhà hàng ADAMAS",
-    num: "Sức chứa: 138 khách",
-  },
-  {
-    img: "http://diamondstarbentre.com/vnt_upload/restaurant/11_2020/thumbs/(1000x670)__IMG_0418.jpg",
-    type: "Nhà hàng EMERALD",
-    num: "Sức chứa: 180 khách",
+    img: imgIntro2,
+    type: "blue oval 1 và 2",
+    num: "Sức chứa: 600 khách",
   },
 ];
 const data__menu = [

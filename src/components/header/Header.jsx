@@ -1,5 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+// image
+import logo from "../../assets/image/logo.svg";
+import flatVN from "../../assets/image/flag-vn.webp";
+import flatEN from "../../assets/image/flag-en.svg";
 
 const Header = () => {
   function changeLang() {
@@ -10,10 +14,7 @@ const Header = () => {
     <div className="header__container">
       <div className="logo">
         <NavLink to="/">
-          <img
-            src="http://diamondstarbentre.com/vnt_upload/weblink/logo.svg"
-            alt="logo"
-          ></img>
+          <img src={logo} alt="logo"></img>
         </NavLink>
       </div>
       <div className="menu">
@@ -57,26 +58,17 @@ const Header = () => {
               <NavLink to="/contract">LIÊN HỆ</NavLink>
             </li>
             <li className="lang" onClick={changeLang}>
-              <img
-                src="http://diamondstarbentre.com/vnt_upload/lang/flag-vn.svg"
-                alt="VN"
-              ></img>
+              <img src={flatVN} alt="VN"></img>
               <span>VN</span>
               <i class="fa-solid fa-angle-down"></i>
               <div className="lang__sub">
                 <ul className="lang__list">
                   <li className="vie">
-                    <img
-                      src="http://diamondstarbentre.com/vnt_upload/lang/flag-vn.svg"
-                      alt="VN"
-                    ></img>
+                    <img src={flatVN} alt="VN"></img>
                     <span>VN</span>
                   </li>
                   <li className="eng">
-                    <img
-                      src="https://cdn11.bigcommerce.com/s-e2nupsxogj/images/stencil/500x659/products/1529/24884/z93r0kwtiafeveqjq86v__76953.1675809890.jpg?c=1"
-                      alt="EN"
-                    ></img>
+                    <img src={flatEN} alt="EN"></img>
                     <span>EN</span>
                   </li>
                 </ul>

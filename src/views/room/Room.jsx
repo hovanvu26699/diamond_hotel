@@ -1,44 +1,51 @@
 import React from "react";
 import BigBanner from "../../components/bigBanner/BigBanner";
 import BigCardRoom from "../../components/bigCardRoom/BigCardRoom";
-import CardRoom from "../../components/cardRoom/CardRoom";
+
+// image
+import banner from "../../assets/image/banner-room.jpg";
+import presidentRoom from "../../assets/image/room-president.jpg";
+import superiorRoom from "../../assets/image/room-superior.jpg";
+import primeRoom from "../../assets/image/room-prime.jpg";
+import eliteRoom from "../../assets/image/room-elite.jpg";
+import deluxeRoom from "../../assets/image/room-deluxe.jpg";
 
 const data_banner = {
-  img: "http://diamondstarbentre.com/vnt_upload/weblink/Untitled_1.jpg",
+  img: banner,
   title: "PHÒNG NGHỈ",
 };
 
 const data_room = [
   {
-    img: "http://diamondstarbentre.com/vnt_upload/product/03_2021/P2.jpg",
+    img: presidentRoom,
     type: "presidential suite",
     meter: "180 m2",
     people: "2 Người Lớn",
     bed: "Giường Đôi",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/product/07_2020/SUPERIOR.jpg",
+    img: superiorRoom,
     type: "cozy superior",
     meter: "35 - 36 m2",
     people: "2 Người Lớn",
     bed: "Giường Đôi/Giường Đơn",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/product/07_2020/phong_deluxe.jpg",
+    img: deluxeRoom,
     type: "signature deluxe",
     meter: "42 - 47 m2",
     people: "2 Người Lớn",
     bed: "Giường Đôi/Giường Đơn",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/product/07_2020/Suite.jpg",
+    img: primeRoom,
     type: "prime suite",
     meter: "65 m2",
     people: "2 Người Lớn",
     bed: "2 Giường Đơn",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/product/03_2021/IMG_20201026_104000.jpg",
+    img: eliteRoom,
     type: "elite suite",
     meter: "90 - 94 m2",
     people: "2 Người Lớn",

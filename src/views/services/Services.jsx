@@ -1,27 +1,34 @@
 import React from "react";
 import BigBanner from "../../components/bigBanner/BigBanner";
 import CardService from "../../components/cardService/CardService";
+// image
+import banner from "../../assets/image/banner-serv.jpg";
+import servSpa from "../../assets/image/serv-4.jpg";
+import servPool from "../../assets/image/serv-1.jpg";
+import servGym from "../../assets/image/serv-3.jpg";
+import servTour from "../../assets/image/serv-2.jpg";
+
 const data_banner = {
-  img: "http://diamondstarbentre.com/vnt_upload/service/07_2020/slide.jpg",
+  img: banner,
   title: "DỊCH VỤ KHÁC",
 };
 
 const data_ser = [
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/08_2020/ho_boi_vo_cuc.jpg",
+    img: servSpa,
+    title: "spa & massage",
+  },
+  {
+    img: servPool,
     title: "hồ bơi vô cực",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/05_2021/viber_image_2021_05_28_14_20_40.jpg",
-    title: "tour",
-  },
-  {
-    img: "http://diamondstarbentre.com/vnt_upload/service/09_2020/000.jpg",
+    img: servGym,
     title: "gym",
   },
   {
-    img: "http://diamondstarbentre.com/vnt_upload/service/09_2020/Spa.jpg",
-    title: "spa & massage",
+    img: servTour,
+    title: "tour",
   },
 ];
 const Services = () => {
