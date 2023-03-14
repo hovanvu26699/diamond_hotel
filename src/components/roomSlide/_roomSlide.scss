@@ -7,6 +7,7 @@
 
         .swiper-button-prev {
             left: 30px;
+            top: 45%;
 
             &::after {
                 color: $text-title;
@@ -24,6 +25,7 @@
 
         .swiper-button-next {
             right: 30px;
+            top: 45%;
 
             &::after {
                 color: $text-title;

@@ -1,0 +1,71 @@
+@import "../../components//roomInfo/roomInfo";
+
+.reservation {
+    margin-top: 102px;
+
+    &__wrapper {
+        &__content {
+            max-width: 1210px;
+            padding: 40px 0px;
+            margin: 0 auto;
+
+            .range__date {
+                background-color: #BF5B04;
+                padding: 20px 0;
+
+                input {
+                    width: 250px;
+                    height: 30px;
+                    margin-left: 20px;
+                    outline: 0;
+                }
+            }
+
+            .currency {
+                padding: 10px 20px;
+                background-color: #f8f8f8;
+                text-align: end;
+
+                select {
+                    width: 200px;
+                    height: 30px;
+                }
+            }
+
+            .room__available {
+                display: flex;
+                padding-top: 20px;
+
+                &__list {
+                    .roomInfo {
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .btn__reservate {
+                    margin: 0 30px;
+
+                    .btn {
+                        width: 130px;
+                        background-color: #BF5B04;
+                    }
+
+                    .reservation__info {
+                        text-align: center;
+                        margin-top: 15px;
+
+                        span {
+                            display: block;
+                            font-size: 13px;
+                        }
+
+                        .total {
+                            margin: 3px 0;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

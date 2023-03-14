@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 // image
 import logo from "../../assets/image/logo.svg";
 import flatVN from "../../assets/image/flag-vn.webp";
@@ -19,7 +19,9 @@ const Header = () => {
       </div>
       <div className="menu">
         <div className="reservation">
-          <button className="btn">RESERVATION</button>
+          <button className="btn">
+            <Link to="/reservation">RESERVATION</Link>
+          </button>
         </div>
         <div className="menu__list">
           <ul>
@@ -46,10 +48,10 @@ const Header = () => {
               <div className="libary__sub">
                 <ul className="libary__list">
                   <li>
-                    <a>HÌNH ẢNH</a>
+                    <Link to="/">HÌNH ẢNH</Link>
                   </li>
                   <li>
-                    <a>VIDEO</a>
+                    <Link to="/">VIDEO</Link>
                   </li>
                 </ul>
               </div>

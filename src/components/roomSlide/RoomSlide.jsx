@@ -78,7 +78,6 @@ const RoomSlide = () => {
             </SwiperSlide>
           );
         })}
-        ;
       </Swiper>
       <div className="slide__btn">
         <button className="btn-no-bg">XEM TẤT CẢ</button>

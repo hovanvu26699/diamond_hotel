@@ -9,6 +9,8 @@ import Services from "../views/services/Services";
 import Vouchers from "../views/voucher/Vouchers";
 import Library from "../views/library/Library";
 import Contract from "../views/contract/Contract";
+import Reservation from "../views/reservation/Reservation";
+import Bill from "../views/bill/Bill";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -17,6 +19,7 @@ const Routers = () => {
     <div>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
+        <Route path="/reservation" element={<Reservation />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/room" element={<Room />} />
         <Route path="/restaurant" element={<Restaurant />} />
@@ -25,6 +28,7 @@ const Routers = () => {
         <Route path="/voucher" element={<Vouchers />} />
         <Route path="/library" element={<Library />} />
         <Route path="/contract" element={<Contract />} />
+        <Route path="/reservation/check" element={<Bill />} />
       </Routes>
     </div>
   );
